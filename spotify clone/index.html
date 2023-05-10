@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone - Feel free to listen music here.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="brand">
+            <img src="logo.png" alt="">Spotify
+        </div>
+        <ul>
+
+            <li class="home"><i class="bi bi-house-door-fill"></i> Home</li>
+            <li><i class="bi bi-search"></i> Search</li>
+            <li><i class="bi bi-music-note-list"></i> Your Library</li>
+        </ul>
+    </nav>
+
+    <div class="mu-container">
+        <h1>Best of NCM - No Copyright Musics</h1>
+        <div class="mu-list">
+            <div class="mu-box1">
+                <img src="covers/1.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="0" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> Let Me Love You.</h3>
+                    <p>Relax and Indulgde with <br> Beautiful Song</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/2.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="1" class="bi songitemplay  bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> Trap.</h3>
+                    <p>Keep calm and focus with ambient and post-rock music</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/3.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="2" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> They Mad.</h3>
+                    <p>Focus with soft study music in the background</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/4.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="3" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> Rich the Kid.</h3>
+                    <p>The perfect study beats. Find your focus, crush your productivity.</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/5.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="4" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> Creepin'.</h3>
+                    <p>Dedicated to all the programmers out there</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/6.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="5" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> Calm Down.</h3>
+                    <p>Uptempo instrumental hip hop beats</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/7.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="6" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> Uptown funk.</h3>
+                    <p>Relax and Indulgde with <br> Beautiful Song</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/8.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="7" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> Blank Space.</h3>
+                    <p>Lounge and chill out music for your workday</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/9.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="8" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> Sorry.</h3>
+                    <p>Focus with deep techno and tech house</p>
+                </div>
+            </div>
+            <div class="mu-box1">
+                <img src="covers/10.jpg" alt="1" class="fluid">
+                <div class="play">
+                    <span><i id="9" class="bi songitemplay bi-play-fill"></i></span>
+                </div>
+                <div class="mu-content">
+                    <h3 class="songname"> See You Again.</h3>
+                    <p>Aerial post-rock sounds to take you somewhere else</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="songmeter">
+            <img src="playing.gif" alt="" id="gif">
+            <span id="mastersongname"></span>
+        </div>
+        <div class="mu-icons">
+            <i class="bi bi-shuffle"></i>
+            <i class="bi bi-skip-backward-circle" id="previous"></i>
+            <i class="bi bi-play-circle" id="masterPlay"></i>
+            <!-- <i class="bi bi-pause-circle-fill"></i> -->
+            <i class="bi bi-skip-forward-circle" id="next"></i>
+            <i class="bi bi-repeat"></i>
+        </div>
+        <div class="progressbar">
+            <span class="start">0.00</span> <input type="range" name="range" value="0" id="progressbar" min="0"
+                max="100">
+            <span>2.59</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
